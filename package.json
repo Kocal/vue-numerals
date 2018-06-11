@@ -22,5 +22,8 @@
   },
   "peerDependencies": {
     "vue": "^2.5.16"
+  },
+  "dependencies": {
+    "numeral": "^2.0.6"
   }
 }
