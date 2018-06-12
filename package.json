@@ -13,7 +13,10 @@
     "prepublish": "npm run build:dev && npm run build:prod"
   },
   "devDependencies": {
+    "@babel/core": "^7.0.0-beta.49",
+    "@babel/preset-env": "^7.0.0-beta.49",
     "@vue/test-utils": "^1.0.0-beta.18",
+    "babel-loader": "^8.0.0-beta",
     "jest": "^23.1.0",
     "vue": "^2.5.16",
     "vue-template-compiler": "^2.5.16",
