@@ -1,6 +1,6 @@
-const Vue = require('vue');
-const { createLocalVue, mount } = require('@vue/test-utils');
-const VueNumerals = require('../src');
+import Vue from 'vue';
+import { createLocalVue, mount } from '@vue/test-utils';
+import VueNumerals from '../src';
 
 Vue.config.productionTip = false;
 
@@ -46,7 +46,7 @@ describe('filter', () => {
 
   test('format with custom locale and custom format', () => {
     localVue.use(VueNumerals, {
-      locale: 'fr'
+      locale: 'fr',
     });
 
     wrapper = mount({
