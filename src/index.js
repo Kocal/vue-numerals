@@ -5,7 +5,7 @@ import 'numeral/locales';
  * @param {VueConstructor} Vue
  * @param {string?} locale
  */
-function install(Vue, { locale }) {
+function install(Vue, { locale } = { locale: null }) {
   const numeralLocale = (locale || navigator.language || navigator.languages[0] || 'fr').toLowerCase().substr(0, 2);
 
   numeral.locale(numeralLocale);
