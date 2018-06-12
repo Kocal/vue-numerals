@@ -7,6 +7,7 @@
   "author": "Hugo Alliaume <kocal@live.fr>",
   "license": "MIT",
   "scripts": {
+    "lint": "eslint --ext .js src",
     "test": "jest",
     "build:dev": "webpack --mode development --output-filename=vue-numerals.js",
     "build:prod": "webpack --mode production --output-filename=vue-numerals.min.js",
