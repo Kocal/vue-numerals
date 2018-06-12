@@ -11,7 +11,8 @@
     "test": "jest",
     "build:dev": "webpack --mode development --output-filename=vue-numerals.js",
     "build:prod": "webpack --mode production --output-filename=vue-numerals.min.js",
-    "prepublish": "npm run build:dev && npm run build:prod"
+    "prepublish": "npm run build:dev && npm run build:prod",
+    "precommit": "precise-commits"
   },
   "devDependencies": {
     "@babel/core": "^7.0.0-beta.49",
