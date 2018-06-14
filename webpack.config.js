@@ -1,4 +1,8 @@
 const config = {
+  output: {
+    library: 'vue-numerals',
+    libraryTarget: 'umd',
+  },
   module: {
     rules: [
       {
