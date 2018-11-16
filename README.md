@@ -7,7 +7,7 @@
 # Requirements
 
 - Vue 2
-- Node.js 6+
+- Node.js 8+
 
 # Installation
 
