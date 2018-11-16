@@ -20,3 +20,6 @@ script:
   - yarn lint
   - yarn test
   - yarn prepublish
+
+after_success:
+  - yarn travis-deploy-once "yarn semantic-release"
