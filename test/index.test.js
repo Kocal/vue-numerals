@@ -1,6 +1,6 @@
 import Vue from 'vue';
 import { createLocalVue, mount } from '@vue/test-utils';
-import VueNumerals from '..';
+import VueNumerals from '../src';
 
 Vue.config.productionTip = false;
 

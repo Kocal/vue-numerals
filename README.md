@@ -7,14 +7,14 @@
 # Requirements
 
 - Vue 2
-- Node.js 6+ (if you are using Node.js)
+- Node.js 6+
 
 # Installation
 
 ## In the browser
 
 ```html
-<script src="https://.../vue-numerals/dist/vue-numerals.min.js"/>
+<script src="https://unpkg.com/vue-numerals/dist/vue-numerals.min.js" />
 ```
 
 ## With Node.js
