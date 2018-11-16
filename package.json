@@ -1,9 +1,12 @@
 {
   "name": "vue-numerals",
-  "version": "1.0.1",
+  "version": "0.0.0-development",
   "description": "Use Numeral.js as a Vue filter to formatting numbers.",
   "main": "dist/vue-numerals.min.js",
-  "files": ["src", "dist"],
+  "files": [
+    "src",
+    "dist"
+  ],
   "repository": "https://github.com/Kocal/vue-numerals.git",
   "author": "Hugo Alliaume <kocal@live.fr>",
   "license": "MIT",
@@ -13,12 +16,15 @@
     "build:dev": "webpack --mode development --output-filename=vue-numerals.js",
     "build:prod": "webpack --mode production --output-filename=vue-numerals.min.js",
     "prepublish": "npm run build:dev && npm run build:prod",
-    "precommit": "precise-commits"
+    "precommit": "precise-commits",
+    "travis-deploy-once": "travis-deploy-once --pro",
+    "semantic-release": "semantic-release"
   },
   "devDependencies": {
     "@babel/core": "^7.0.0-beta.49",
     "@babel/preset-env": "^7.0.0-beta.49",
     "@vue/test-utils": "^1.0.0-beta.18",
+    "@yproximite/semantic-release-preset": "^1.0.3",
     "babel-core": "^7.0.0-0",
     "babel-eslint": "8",
     "babel-jest": "^23.0.1",
@@ -32,6 +38,8 @@
     "jest": "^23.1.0",
     "precise-commits": "^1.0.2",
     "prettier": "^1.13.5",
+    "semantic-release": "^15.12.0",
+    "travis-deploy-once": "^5.0.9",
     "vue": "^2.5.16",
     "vue-template-compiler": "^2.5.16",
     "webpack": "^4.12.0",
