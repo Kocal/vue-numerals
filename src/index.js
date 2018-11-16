@@ -6,7 +6,15 @@ import 'numeral/locales';
  * @param {string?} locale
  */
 function install(Vue, { locale } = { locale: null }) {
-  const numeralLocale = (locale || navigator.language || navigator.languages[0] || 'fr').toLowerCase().substr(0, 2);
+  let numeralLocale = locale || (navigator.language || navigator.languages[0] || 'fr').toLowerCase().replace('_', '-');
+
+  // will transform `fr-fr` to `fr`
+  if (numeralLocale.includes('-')) {
+    const [main, minor] = numeralLocale.split('-');
+    if (main === minor) {
+      numeralLocale = main;
+    }
+  }
 
   numeral.locale(numeralLocale);
 
