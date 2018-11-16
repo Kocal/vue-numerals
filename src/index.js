@@ -6,17 +6,7 @@ import 'numeral/locales';
  * @param {string?} locale
  */
 function install(Vue, { locale } = { locale: null }) {
-  let numeralLocale = locale || 'fr';
-
-  // will transform `fr-fr` to `fr`
-  if (numeralLocale.includes('-')) {
-    const [main, minor] = numeralLocale.split('-');
-    if (main === minor) {
-      numeralLocale = main;
-    }
-  }
-
-  numeral.locale(numeralLocale);
+  numeral.locale(locale || 'fr');
 
   Vue.filter('numeralFormat', (value, format = '0,0') => numeral(value).format(format));
 }
