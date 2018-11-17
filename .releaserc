@@ -1,3 +1,3 @@
 {
-  "extends": "@yproximite/semantic-release-preset"
+  "extends": "@kocal/semantic-release-preset"
 }
