@@ -24,7 +24,7 @@
     "@babel/core": "^7.0.0-beta.49",
     "@babel/preset-env": "^7.0.0-beta.49",
     "@vue/test-utils": "^1.0.0-beta.18",
-    "@yproximite/semantic-release-preset": "^1.0.3",
+    "@yproximite/semantic-release-preset": "^99.99.99",
     "babel-core": "^7.0.0-0",
     "babel-eslint": "8",
     "babel-jest": "^23.0.1",
