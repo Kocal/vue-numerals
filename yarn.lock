@@ -1873,8 +1873,9 @@ babel-jest@^23.0.1:
     babel-preset-jest "^23.0.1"
 
 babel-loader@^8.0.0-beta:
-  version "8.0.0-beta.3"
-  resolved "https://registry.yarnpkg.com/babel-loader/-/babel-loader-8.0.0-beta.3.tgz#49efeea6e8058d5af860a18a6de88b8c1450645b"
+  version "8.0.0-beta.6"
+  resolved "https://registry.yarnpkg.com/babel-loader/-/babel-loader-8.0.0-beta.6.tgz#e28e51e8bd118b97861e6d14880684116e979f30"
+  integrity sha512-T3PmmlhIK8TnCYKTjHf+uNfU8m6GvoE8hu3++GR+yYT9ZtC5Jvuq3ZHKP4OffzDTXlC/7lUJbfvyfU9i/XebNg==
   dependencies:
     find-cache-dir "^1.0.0"
     loader-utils "^1.0.2"
