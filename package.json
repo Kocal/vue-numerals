@@ -17,7 +17,6 @@
     "build:prod": "webpack --mode production --output-filename=vue-numerals.min.js",
     "prepublish": "npm run build:dev && npm run build:prod",
     "precommit": "precise-commits",
-    "travis-deploy-once": "travis-deploy-once --pro",
     "semantic-release": "semantic-release"
   },
   "devDependencies": {
@@ -39,7 +38,6 @@
     "precise-commits": "^1.0.2",
     "prettier": "^1.13.5",
     "semantic-release": "^15.12.0",
-    "travis-deploy-once": "^5.0.9",
     "vue": "^2.5.16",
     "vue-template-compiler": "^2.5.16",
     "webpack": "^4.12.0",
