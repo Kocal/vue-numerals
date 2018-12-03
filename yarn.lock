@@ -7041,9 +7041,9 @@ schema-utils@^1.0.0:
     ajv-keywords "^3.1.0"
 
 semantic-release@^15.12.0:
-  version "15.12.0"
-  resolved "https://registry.yarnpkg.com/semantic-release/-/semantic-release-15.12.0.tgz#061f390bbf999ae56ae52a71f0a986659bbe556d"
-  integrity sha512-s8JQ0twxSTat4aIKy8AVPm6gP+2OlkMyyTGeeWFopOXQVa3Bg0LPNjdhsUL90MHvh9aVy9k0/ym4DWmOcGxOMQ==
+  version "15.12.3"
+  resolved "https://registry.yarnpkg.com/semantic-release/-/semantic-release-15.12.3.tgz#9f7c5a8ac55624a6418e0bf95bf53c2030487c12"
+  integrity sha512-3HCKD2ORxi6jItIoP9WeYJjjHsZqozSf6WUGcLClnRH553OVNKf4mLdOwo9UHJe6dVNSk5z7oDfGWKGwVy63BA==
   dependencies:
     "@semantic-release/commit-analyzer" "^6.1.0"
     "@semantic-release/error" "^2.2.0"
