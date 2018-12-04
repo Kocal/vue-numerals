@@ -28,7 +28,7 @@
     "babel-eslint": "8",
     "babel-jest": "^23.6.0",
     "babel-loader": "^8.0.0-beta",
-    "eslint": "^4.19.1",
+    "eslint": "^5.9.0",
     "eslint-config-airbnb-base": "^13.0.0",
     "eslint-config-prettier": "^2.9.0",
     "eslint-plugin-import": "^2.12.0",
