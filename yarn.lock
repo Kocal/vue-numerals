@@ -8132,9 +8132,9 @@ vue-template-compiler@^2.5.16:
     he "^1.1.0"
 
 vue@^2.5.16:
-  version "2.5.17"
-  resolved "https://registry.yarnpkg.com/vue/-/vue-2.5.17.tgz#0f8789ad718be68ca1872629832ed533589c6ada"
-  integrity sha512-mFbcWoDIJi0w0Za4emyLiW72Jae0yjANHbCVquMKijcavBGypqlF7zHRgMa5k4sesdv7hv2rB4JPdZfR+TPfhQ==
+  version "2.5.19"
+  resolved "https://registry.yarnpkg.com/vue/-/vue-2.5.19.tgz#c4c9ba01a97a23ea24018d4702e994c15785e025"
+  integrity sha512-zs7w/dy/yMTCcUunUl05UHhYEI2bt67R7G2jD42HnJ28JxCtC1FY8zZ9GU4PF2SJP8Ff/B9HyojWk/NztqKfFA==
 
 w3c-hr-time@^1.0.1:
   version "1.0.1"
