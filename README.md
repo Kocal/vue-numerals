@@ -15,13 +15,16 @@
 ## In the browser
 
 ```html
-<script src="https://unpkg.com/vue-numerals/dist/vue-numerals.min.js" />
+<!-- Import Numeral.js (http://numeraljs.com/#use-it) -->
+<script src="//cdnjs.cloudflare.com/ajax/libs/numeral.js/2.0.0/numeral.min.js"></script>
+<!-- Then import vue-numerals -->
+<script src="https://unpkg.com/vue-numerals/dist/vue-numerals.min.js"></script>
 ```
 
 ## With Node.js
 
 ```bash
-$ yarn add vue-numerals
+$ yarn add vue-numerals 'numeral@>=2'
 ```
 
 ```javascript

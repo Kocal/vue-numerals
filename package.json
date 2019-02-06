@@ -35,6 +35,7 @@
     "eslint-plugin-prettier": "^2.6.0",
     "husky": "^0.14.3",
     "jest": "^23.6.0",
+    "numeral": "^2.0.6",
     "precise-commits": "^1.0.2",
     "prettier": "^1.13.5",
     "semantic-release": "^15.12.0",
@@ -44,9 +45,7 @@
     "webpack-cli": "^3.0.3"
   },
   "peerDependencies": {
-    "vue": "^2.5.16"
-  },
-  "dependencies": {
-    "numeral": "^2.0.6"
+    "numeral": ">=2",
+    "vue": ">=2"
   }
 }
