@@ -31,7 +31,7 @@ $ yarn add vue-numerals 'numeral@>=2'
 import Vue from 'vue';
 import VueNumerals from 'vue-numerals';
 
-Vue.use(VueNumerals);
+Vue.use(VueNumerals); // default locale is 'en'
 
 // with options
 Vue.use(VueNumerals, {
@@ -47,10 +47,10 @@ Inside your component:
 ```vue
 <template>
   <div>
-    <!-- With french locale, it will display: `12 345` -->
+    <!-- Will display: `12,345` -->
     <p>{{ count | numeralFormat }}</p>
     
-    <!-- With french locale, it will display: `12 345 €` --> 
+    <!-- Will display: `12,345 $` --> 
     <p>{{ count | numeralFormat('0,0[.]00 $') }}</p>
   </div>
 </template>
