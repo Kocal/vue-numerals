@@ -1,6 +1,6 @@
 # vue-numerals
 
-[![](https://img.shields.io/npm/v/vue-numerals.svg)](https://github.com/Kocal/vue-numerals)
+[![](https://img.shields.io/npm/v/vue-numerals.svg)](https://www.npmjs.com/package/vue-numerals)
 [![Build Status](https://travis-ci.com/Kocal/vue-numerals.svg?token=pNBs2oaRpfxdyhqWf28h&branch=master)](https://travis-ci.com/Kocal/vue-numerals)
 
 > Use the power of [Numerals.js](http://numeraljs.com) to properly format numbers inside your Vue components!
