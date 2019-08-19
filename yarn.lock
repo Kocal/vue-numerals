@@ -3912,6 +3912,13 @@ hosted-git-info@^2.1.4, hosted-git-info@^2.6.0, hosted-git-info@^2.7.1:
   resolved "https://registry.yarnpkg.com/hosted-git-info/-/hosted-git-info-2.7.1.tgz#97f236977bd6e125408930ff6de3eec6281ec047"
   integrity sha512-7T/BxH19zbcCTa8XkMlbK5lTo1WtgkFi3GvdWEyNuc4Vex7/9Dqbnpsf4JMydcfj9HCg4zUWFTL3Za6lapg5/w==
 
+hosted-git-info@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/hosted-git-info/-/hosted-git-info-3.0.0.tgz#dd8af49cd01e73cc8e61ba13e217a772fd4ecd2d"
+  integrity sha512-zYSx1cP4MLsvKtTg8DF/PI6e6FHZ3wcawcTGsrLU2TM+UfD4jmSrn2wdQT16TFbH3lO4PIdjLG0E+cuYDgFD9g==
+  dependencies:
+    lru-cache "^5.1.1"
+
 html-encoding-sniffer@^1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/html-encoding-sniffer/-/html-encoding-sniffer-1.0.2.tgz#e70d84b94da53aa375e11fe3a351be6642ca46f8"
@@ -7451,9 +7458,9 @@ schema-utils@^1.0.0:
     ajv-keywords "^3.1.0"
 
 semantic-release@^15.13.3:
-  version "15.13.19"
-  resolved "https://registry.yarnpkg.com/semantic-release/-/semantic-release-15.13.19.tgz#d1d05b3516fb8701d81f4e6b9be42bafffef13cb"
-  integrity sha512-6eqqAmzGaJWgP5R5IkWIQK9is+cWUp/A+pwzxf/YaG1hJv1eD25klUP7Y0fedsPOxxI8eLuDUVlEs7U8SOlK0Q==
+  version "15.13.21"
+  resolved "https://registry.yarnpkg.com/semantic-release/-/semantic-release-15.13.21.tgz#d021c75f889cff75ae3410736942bee6c4557da7"
+  integrity sha512-3S9thQas28iv3NeHUqQVsDnxMcBGQICdxabeNnJ8BnbRBvCkgqCg3v9zo/+O5a8GCyxrgjtwJ2iWozL8SiIq1w==
   dependencies:
     "@semantic-release/commit-analyzer" "^6.1.0"
     "@semantic-release/error" "^2.2.0"
@@ -7470,8 +7477,8 @@ semantic-release@^15.13.3:
     get-stream "^5.0.0"
     git-log-parser "^1.2.0"
     hook-std "^2.0.0"
-    hosted-git-info "^2.7.1"
-    lodash "^4.17.4"
+    hosted-git-info "^3.0.0"
+    lodash "^4.17.15"
     marked "^0.7.0"
     marked-terminal "^3.2.0"
     p-locate "^4.0.0"
@@ -7504,12 +7511,7 @@ semver-regex@^2.0.0:
   resolved "https://registry.yarnpkg.com/semver/-/semver-5.7.0.tgz#790a7cf6fea5459bac96110b29b60412dc8ff96b"
   integrity sha512-Ya52jSX2u7QKghxeoFGpLwCtGlt7j0oY9DYb5apt9nPlJ42ID+ulTXESnt/qAQcoSERyZ5sl3LDIOw0nAn/5DA==
 
-semver@^6.0.0, semver@^6.1.2:
-  version "6.3.0"
-  resolved "https://registry.yarnpkg.com/semver/-/semver-6.3.0.tgz#ee0a64c8af5e8ceea67687b133761e1becbd1d3d"
-  integrity sha512-b39TBaTSfV6yBrapU89p5fKekE2m/NwnDocOVruQFS1/veMgdzuPcnOM34M6CwxW8jH/lxEa5rBoDeUwu5HHTw==
-
-semver@^6.2.0, semver@^6.3.0:
+semver@^6.0.0, semver@^6.1.2, semver@^6.2.0, semver@^6.3.0:
   version "6.3.0"
   resolved "https://registry.yarnpkg.com/semver/-/semver-6.3.0.tgz#ee0a64c8af5e8ceea67687b133761e1becbd1d3d"
   integrity sha512-b39TBaTSfV6yBrapU89p5fKekE2m/NwnDocOVruQFS1/veMgdzuPcnOM34M6CwxW8jH/lxEa5rBoDeUwu5HHTw==
@@ -8801,7 +8803,7 @@ yargs-parser@^9.0.2:
   dependencies:
     camelcase "^4.1.0"
 
-yargs@13.2.4, yargs@^13.1.0:
+yargs@13.2.4:
   version "13.2.4"
   resolved "https://registry.yarnpkg.com/yargs/-/yargs-13.2.4.tgz#0b562b794016eb9651b98bd37acf364aa5d6dc83"
   integrity sha512-HG/DWAJa1PAnHT9JAhNa8AbAv3FPaiLzioSjCcmuXXhP8MlpHO5vwls4g4j6n30Z74GVQj8Xa62dWVx1QCGklg==
@@ -8835,7 +8837,7 @@ yargs@^11.0.0:
     y18n "^3.2.1"
     yargs-parser "^9.0.2"
 
-yargs@^13.3.0:
+yargs@^13.1.0, yargs@^13.3.0:
   version "13.3.0"
   resolved "https://registry.yarnpkg.com/yargs/-/yargs-13.3.0.tgz#4c657a55e07e5f2cf947f8a366567c04a0dedc83"
   integrity sha512-2eehun/8ALW8TLoIl7MVaRUrg+yCnenu8B4kBlRxj3GJGDKU1Og7sMXPNm1BYyM1DOJmTZ4YeN/Nwxv+8XJsUA==
