@@ -27,7 +27,8 @@
     "@babel/core": "^7.2.2",
     "@babel/preset-env": "^7.3.1",
     "@kocal/semantic-release-preset": "^2.0.6",
-    "@vue/test-utils": "^1.0.0-beta.29",
+    "@vue/compiler-sfc": "^3.0.0-rc.9",
+    "@vue/test-utils": "^2.0.0-beta.3",
     "babel-core": "^7.0.0-bridge",
     "babel-eslint": "^10.0.1",
     "babel-jest": "^24.1.0",
@@ -43,13 +44,12 @@
     "precise-commits": "^1.0.2",
     "prettier": "^1.16.4",
     "semantic-release": "^17.1.1",
-    "vue": "^2.6.3",
-    "vue-template-compiler": "^2.6.3",
+    "vue": "^3.0.0-rc.9",
     "webpack": "^4.29.2",
     "webpack-cli": "^3.2.3"
   },
   "peerDependencies": {
     "numeral": ">=2",
-    "vue": ">=2"
+    "vue": "^3.0.0-rc.9"
   }
 }
