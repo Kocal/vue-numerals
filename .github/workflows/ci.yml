@@ -6,7 +6,7 @@ on:
             - '*'
 
 jobs:
-    release:
+    ci:
         runs-on: ubuntu-latest
 
         strategy:
