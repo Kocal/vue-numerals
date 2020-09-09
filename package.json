@@ -1,6 +1,6 @@
 {
   "name": "vue-numerals",
-  "version": "0.0.0-development",
+  "version": "3.1.1",
   "description": "Use Numeral.js as a Vue filter to formatting numbers.",
   "main": "dist/vue-numerals.min.js",
   "files": [
