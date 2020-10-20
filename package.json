@@ -46,7 +46,7 @@
     "semantic-release": "^17.1.1",
     "vue": "^3.0.0-rc.9",
     "webpack": "^4.29.2",
-    "webpack-cli": "^3.2.3"
+    "webpack-cli": "^4.1.0"
   },
   "peerDependencies": {
     "numeral": ">=2",
