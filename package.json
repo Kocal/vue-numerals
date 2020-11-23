@@ -42,7 +42,7 @@
     "jest": "^24.1.0",
     "numeral": "^2.0.6",
     "precise-commits": "^1.0.2",
-    "prettier": "^1.16.4",
+    "prettier": "^2.2.0",
     "semantic-release": "^17.1.1",
     "vue": "^3.0.0-rc.9",
     "webpack": "^4.29.2",
