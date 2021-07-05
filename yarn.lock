@@ -1007,9 +1007,9 @@
     "@types/yargs" "^13.0.0"
 
 "@kocal/semantic-release-preset@^2.0.6":
-  version "2.0.13"
-  resolved "https://registry.yarnpkg.com/@kocal/semantic-release-preset/-/semantic-release-preset-2.0.13.tgz#0389c7823879401a93312e180bfc690bb76ceeed"
-  integrity sha512-jJ5XgGYgExMHy/SsF3Y1VDFoES4wa4kxz+IRNRxyQglXhOnVmTONJVFGNdi4++tYhLzFN/oQZqrmU+hb1zMgBg==
+  version "2.0.20"
+  resolved "https://registry.yarnpkg.com/@kocal/semantic-release-preset/-/semantic-release-preset-2.0.20.tgz#ff8fb9f501476bd8639905d64f2d59709d0b2bd0"
+  integrity sha512-eqi2XM/Fi9+k8cwHtFZpIBezpnkW1KdsbPFcG9sWXv7C2/3SMsPziu4zllsIiruaa7Ddlr6p/l2PLmNbNwtoNQ==
   dependencies:
     "@semantic-release/commit-analyzer" "^8.0.1"
     "@semantic-release/github" "^7.0.4"
